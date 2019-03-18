@@ -3,8 +3,7 @@ Download all your photos from PhotoBucket using this Python script.
 
 ## Requirements
 Python 3.4+, I think? Just use the latest Python 3 version.
-Also, you'll have to manually edit line 33:
-https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
+Also, you'll have to manually edit line 33: https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
 
 ## Instructions
 ### Get the direct URLs
@@ -23,10 +22,7 @@ https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
 8. Paste those links into a file called "photo.txt" in the same directory as the Python script. Save that file.
 
 ### Edit the script
-9. Copy the prefix from any one of the URLs you just grabbed. Paste it into the variable `prefix` on line 33. The prefix is part of the URL up to and including your username and the trailing slash.
-
-https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
-
+9. Copy the prefix from any one of the URLs you just grabbed. Paste it into the variable `prefix` on line 33. The prefix is part of the URL up to and including your username and the trailing slash. https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
 10. Run `grab.py`.
 11. Watch your photos get downloaded.
 12. Feel free to delete your Photobucket account if the photos aren't linked anywhere live anymore.
