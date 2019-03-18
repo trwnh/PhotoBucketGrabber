@@ -24,7 +24,9 @@ https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
 
 ### Edit the script
 9. Copy the prefix from any one of the URLs you just grabbed. Paste it into the variable `prefix` on line 33. The prefix is part of the URL up to and including your username and the trailing slash.
+
 https://github.com/trwnh/PhotoBucketGrabber/blob/master/grab.py#L33
+
 10. Run `grab.py`.
 11. Watch your photos get downloaded.
 12. Feel free to delete your Photobucket account if the photos aren't linked anywhere live anymore.
