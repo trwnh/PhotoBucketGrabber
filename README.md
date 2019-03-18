@@ -5,17 +5,26 @@ Download all your photos from PhotoBucket using this Python script.
 Python 3.4+, I think? Just use the latest Python 3 version.
 
 ## Instructions
-1. Log in to your Photobucket account.
-2. Go to your "Library".
-3. Click the checkbox on any photo.
-4. Click "Select all" at the top of your bucket. This should add those photos to a black bar at the bottom.
+### Get the direct URLs
+1. Log in to your Photobucket account. Go to your "Library".
+![image](https://i.imgur.com/u9KhheY.png)
+2. Click the checkbox on any photo.
+![image](https://i.imgur.com/QRyIzSJ.png)
+4. Click "Select all" at the top of your bucket. (This should add those photos to a black bar at the bottom.)
+![image](https://i.imgur.com/DA3ntZU.png)
 5. Navigate to each of your albums and click "Select all" to add them to the total selection.
+![image](https://i.imgur.com/dEopKo8.png)
 6. Once you have selected all the photos you want to download, click "Link" on the bottom bar.
+![image](https://i.imgur.com/UiqUkwJ.png)
 7. Copy the "Direct" link box.
+![image](https://i.imgur.com/F5JgWV1.png)
 8. Paste those links into a file called "photo.txt" in the same directory as the Python script. Save that file.
-9. Run `grab.py`.
-10. Watch your photos get downloaded.
-11. Feel free to delete your Photobucket account if the photos aren't linked anywhere live anymore.
+
+### Edit the script
+9. Copy the prefix from any one of the URLs you just grabbed. Paste it into the variable `prefix`.
+10. Run `grab.py`.
+11. Watch your photos get downloaded.
+12. Feel free to delete your Photobucket account if the photos aren't linked anywhere live anymore.
 
 ## Etc
 [![mastodon](https://i.imgur.com/ahOT5QI.png)](https://mastodon.social/@trwnh) Contact/follow me: [mastodon.social/@trwnh](https://mastodon.social/@trwnh)
