@@ -1,3 +1,5 @@
+you can do this natively on photobucket now i think, so this script is no longer necessary. also it was written years ago so it possibly (probably) doesn't work anymore
+
 # PhotoBucketGrabber
 Download all your photos from PhotoBucket using this Python script.
 
